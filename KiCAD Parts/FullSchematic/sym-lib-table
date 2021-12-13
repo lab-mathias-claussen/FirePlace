@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name FullSchematic-rescue)(type Legacy)(uri ${KIPRJMOD}/FullSchematic-rescue.lib)(options "")(descr ""))
+  (lib (name BSH20x)(type Legacy)(uri "D:/Software_Projects/FirePlace/KiCAD Parts/BSH20x/BSH20x.lib")(options "")(descr ""))
+  (lib (name RPi_Pico)(type Legacy)(uri "D:/Software_Projects/FirePlace/KiCAD Parts/RPi_PicoLib/RPi_Pico.lib")(options "")(descr ""))
+)
