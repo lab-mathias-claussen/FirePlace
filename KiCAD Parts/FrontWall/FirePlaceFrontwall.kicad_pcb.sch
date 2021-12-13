@@ -1,0 +1,265 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 8268 11693 portrait
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L RPi_Pico:Pico U1
+U 1 1 6344843C
+P 3350 5450
+F 0 "U1" H 3350 6665 50  0000 C CNN
+F 1 "Pico" H 3350 6574 50  0000 C CNN
+F 2 "RPi_Pico:RPi_Pico_SMD_TH" V 3350 5450 50  0001 C CNN
+F 3 "" H 3350 5450 50  0001 C CNN
+	1    3350 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x10_Counter_Clockwise K1
+U 1 1 616CCD34
+P 1950 6000
+F 0 "K1" H 2000 5275 50  0000 C CNN
+F 1 "Conn_02x10_Counter_Clockwise" H 2000 5366 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical" H 1950 6000 50  0001 C CNN
+F 3 "~" H 1950 6000 50  0001 C CNN
+	1    1950 6000
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2250 5500 2650 5500
+Wire Wire Line
+	2650 5600 2250 5600
+Wire Wire Line
+	2250 5700 2300 5700
+Wire Wire Line
+	2650 5800 2250 5800
+Wire Wire Line
+	2250 5900 2650 5900
+Wire Wire Line
+	2650 6000 2250 6000
+Wire Wire Line
+	2250 6100 2650 6100
+Wire Wire Line
+	2650 6200 2300 6200
+Wire Wire Line
+	2250 6300 2650 6300
+Wire Wire Line
+	2650 6400 2250 6400
+Wire Wire Line
+	2650 5400 1700 5400
+Wire Wire Line
+	1700 5400 1700 5500
+Wire Wire Line
+	1700 5500 1750 5500
+Wire Wire Line
+	1750 5600 1650 5600
+Wire Wire Line
+	1650 5600 1650 5300
+Wire Wire Line
+	1650 5300 2650 5300
+Wire Wire Line
+	2650 5200 2300 5200
+Wire Wire Line
+	1600 5200 1600 5700
+Wire Wire Line
+	1600 5700 1750 5700
+Wire Wire Line
+	2650 5100 1550 5100
+Wire Wire Line
+	1550 5100 1550 5800
+Wire Wire Line
+	1550 5800 1750 5800
+Wire Wire Line
+	1750 5900 1500 5900
+Wire Wire Line
+	1500 5900 1500 5000
+Wire Wire Line
+	1500 5000 2650 5000
+Wire Wire Line
+	2650 4900 1450 4900
+Wire Wire Line
+	1450 4900 1450 6000
+Wire Wire Line
+	1450 6000 1750 6000
+Wire Wire Line
+	1750 6100 1400 6100
+Wire Wire Line
+	1400 4800 2650 4800
+Wire Wire Line
+	1400 4800 1400 6100
+Wire Wire Line
+	2650 4700 2300 4700
+Wire Wire Line
+	1350 4700 1350 6200
+Wire Wire Line
+	1350 6200 1750 6200
+Wire Wire Line
+	2650 4600 1300 4600
+Wire Wire Line
+	1300 4600 1300 6300
+Wire Wire Line
+	1300 6300 1750 6300
+Wire Wire Line
+	2650 4500 1250 4500
+Wire Wire Line
+	1250 4500 1250 6400
+Wire Wire Line
+	1250 6400 1750 6400
+$Comp
+L Connector_Generic:Conn_02x10_Counter_Clockwise K2
+U 1 1 616DF994
+P 4650 6000
+F 0 "K2" H 4700 5275 50  0000 C CNN
+F 1 "Conn_02x10_Counter_Clockwise" H 4700 5366 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical" H 4650 6000 50  0001 C CNN
+F 3 "~" H 4650 6000 50  0001 C CNN
+	1    4650 6000
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4050 6400 4450 6400
+Wire Wire Line
+	4450 6300 4050 6300
+Wire Wire Line
+	4050 6200 4300 6200
+Wire Wire Line
+	4450 6100 4050 6100
+Wire Wire Line
+	4050 6000 4450 6000
+Wire Wire Line
+	4450 5900 4050 5900
+Wire Wire Line
+	4050 5800 4450 5800
+Wire Wire Line
+	4450 5700 4300 5700
+Wire Wire Line
+	4450 5600 4050 5600
+Wire Wire Line
+	4050 5500 4450 5500
+Wire Wire Line
+	4050 5400 5050 5400
+Wire Wire Line
+	5050 5400 5050 5500
+Wire Wire Line
+	5050 5500 4950 5500
+Wire Wire Line
+	4950 5600 5100 5600
+Wire Wire Line
+	5100 5600 5100 5300
+Wire Wire Line
+	5100 5300 4050 5300
+Wire Wire Line
+	4050 5200 4300 5200
+Wire Wire Line
+	5150 5200 5150 5700
+Wire Wire Line
+	5150 5700 4950 5700
+Wire Wire Line
+	4050 5100 5200 5100
+Wire Wire Line
+	5200 5100 5200 5800
+Wire Wire Line
+	5200 5800 4950 5800
+Wire Wire Line
+	4050 5000 5250 5000
+Wire Wire Line
+	5250 5000 5250 5900
+Wire Wire Line
+	5250 5900 4950 5900
+Wire Wire Line
+	4050 4900 5300 4900
+Wire Wire Line
+	5300 4900 5300 6000
+Wire Wire Line
+	5300 6000 4950 6000
+Wire Wire Line
+	4050 4800 5350 4800
+Wire Wire Line
+	5350 4800 5350 6100
+Wire Wire Line
+	5350 6100 4950 6100
+Wire Wire Line
+	4050 4700 4300 4700
+Wire Wire Line
+	5400 4700 5400 6200
+Wire Wire Line
+	5400 6200 4950 6200
+Wire Wire Line
+	4050 4600 5450 4600
+Wire Wire Line
+	5450 4600 5450 6300
+Wire Wire Line
+	5450 6300 4950 6300
+Wire Wire Line
+	4050 4500 5500 4500
+Wire Wire Line
+	5500 4500 5500 6400
+Wire Wire Line
+	5500 6400 4950 6400
+$Comp
+L power:GND #PWR?
+U 1 1 617035A5
+P 2300 7050
+F 0 "#PWR?" H 2300 6800 50  0001 C CNN
+F 1 "GND" H 2305 6877 50  0000 C CNN
+F 2 "" H 2300 7050 50  0001 C CNN
+F 3 "" H 2300 7050 50  0001 C CNN
+	1    2300 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 6200 2300 6800
+Connection ~ 2300 6200
+Wire Wire Line
+	2300 6200 2250 6200
+Wire Wire Line
+	2300 5700 2300 6200
+Connection ~ 2300 5700
+Wire Wire Line
+	2300 5700 2650 5700
+Wire Wire Line
+	2300 5700 2300 5200
+Connection ~ 2300 5200
+Wire Wire Line
+	2300 5200 1600 5200
+Wire Wire Line
+	2300 5200 2300 4700
+Connection ~ 2300 4700
+Wire Wire Line
+	2300 4700 1350 4700
+Wire Wire Line
+	2300 6800 4300 6800
+Wire Wire Line
+	4300 6800 4300 6200
+Connection ~ 2300 6800
+Wire Wire Line
+	2300 6800 2300 7050
+Connection ~ 4300 6200
+Wire Wire Line
+	4300 6200 4450 6200
+Wire Wire Line
+	4300 5700 4300 6200
+Connection ~ 4300 5700
+Wire Wire Line
+	4300 5700 4050 5700
+Wire Wire Line
+	4300 5700 4300 5200
+Connection ~ 4300 5200
+Wire Wire Line
+	4300 5200 5150 5200
+Wire Wire Line
+	4300 4700 4300 5200
+Connection ~ 4300 4700
+Wire Wire Line
+	4300 4700 5400 4700
+$EndSCHEMATC

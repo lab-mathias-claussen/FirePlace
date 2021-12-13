@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name SOT-23_BS170_BSH201)(type KiCad)(uri ${KIPRJMOD}/SOT-23_BS170_BSH201.pretty)(options "")(descr ""))
+)

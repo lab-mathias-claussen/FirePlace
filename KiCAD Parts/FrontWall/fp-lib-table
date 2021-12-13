@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name aisler)(type KiCad)(uri ${KIPRJMOD}/aisler.pretty)(options "")(descr ""))
+  (lib (name elektor)(type KiCad)(uri ${KIPRJMOD}/elektor.pretty)(options "")(descr ""))
+)
